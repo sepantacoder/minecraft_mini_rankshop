@@ -1,0 +1,63 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finalize</title>
+    <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
+    <style>
+        footer {
+            background-image: linear-gradient(blue, red);
+            color: white;
+        }
+
+        header {
+            width: 100%;
+            background-image: linear-gradient(lime, cyan);
+            color: red;
+        }
+
+        p {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width:600px) {
+            p {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            p {
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            p {
+                font-size: 17px;
+            }
+        }
+
+        @media screen and (max-width:300px) {
+            p {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;color: red;">مرجع خرید رنک سرور ماینکرافت</h1>
+    </header>
+    <p> {{rank.amount}} به مبلغ {{rank.rank}} برای خریدن</p>
+    <p>به شماره کارت 6104338901730544 واریز فرمایید</p>
+    <footer>
+        <h1 style="text-align: center;">developed by sepanta asadi</h1>
+    </footer>
+</body>
+
+</html>

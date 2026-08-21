@@ -1,0 +1,42 @@
+{% extends 'store/base.html' %}
+{%load static%}
+{% block title %}
+<title>خرید {{ rank.name }} hai craft shop</title>
+{% endblock %}
+{%block style%}
+<link rel="stylesheet" href="{%static 'store/buy.css'%}">
+{%endblock%}
+{% block content %}
+<header>
+    <h1 style="text-align: center;color: red;">مرجع خرید رنک سرور ماینکرافت</h1>
+</header>
+
+<h1>{{ rank.name }}</h1>
+
+<p>{{ rank.description }}</p>
+
+<h2>{{ rank.price }} تومان</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="parent">
+        <div class="div1">
+            <label for="phone">:شماره موبایل</label>
+            <br><br>
+            <label for="username"> :نام کاربری داخل سرور</label>
+        </div>
+        <div class="div2"> 
+            <input type="number" name="phone" id="phone" required>
+            <br>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <br>
+        <br>
+    </div>
+    <button type="submit">ادامه پرداخت</button>
+</form>
+<footer>
+    <h1 style="text-align: center;color: white;">developed by sepanta asadi</h1>
+</footer>
+
+{% endblock %}

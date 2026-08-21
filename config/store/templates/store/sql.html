@@ -1,0 +1,14 @@
+{%extends 'store/base.html' %}
+{%block title %}
+<title>پنل مخفی</title>
+{%endblock%}
+{%block content%}
+{%for sell in selled%}
+<p>rank:{{sell.rank}}</p>
+<p>username:{{sell.username}}</p>
+<p>buyed in:{{sell.created}}</p>
+<p>order number:{{sell.id}}</p>
+<p>phone:{{sell.phone}}</p>
+<hr>
+{%endfor%}
+{%endblock%}

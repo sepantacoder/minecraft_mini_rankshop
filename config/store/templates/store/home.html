@@ -1,0 +1,32 @@
+{% extends 'store/base.html' %}
+{% load static %}
+
+{% block title %}
+<title>hai craft شاپ</title>
+{% endblock %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'store/home.css' %}">
+{% endblock %}
+
+{% block content %}
+<header>
+    <h1 style="text-align: center;color: red;">مرجع خرید رنک سرور hai craft</h1>
+</header>
+<div class="container">
+    {% for rank in ranks %}
+    <div class="kid">
+        {% if rank.image %}
+        <img src="{{ rank.image.url }}" alt="{{ rank.name }}">
+        {% endif %}
+        <p class="price">{{ rank.price }} تومان</p>
+        <a href="{% url 'buy' rank.id %}">
+            <button><p>مشاهده</p></button>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+<footer>
+    <h1 style="text-align: center;">developed by sepanta asadi</h1>
+</footer>
+{% endblock %}
