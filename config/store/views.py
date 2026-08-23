@@ -6,7 +6,6 @@ from .models import Rank,Order
 
 def home(request):
     ranks = Rank.objects.filter(published=True)
-    Order.objects.all().delete()
     context= {
         "ranks": ranks
     }
