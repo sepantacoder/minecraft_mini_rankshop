@@ -66,9 +66,6 @@ footer{
     button>p{
         font-size: 30px;
     }
-    footer>h1,header>h1{
-        font-size: 40px;
-    }
     .container{
         height:600px;
     }
@@ -84,9 +81,6 @@ footer{
     }
     .container{
         height: 200px;
-    }
-    header>h1,footer>h1{
-        font-size: 20px;
     }
 }
 @media screen and (max-width:340px){
