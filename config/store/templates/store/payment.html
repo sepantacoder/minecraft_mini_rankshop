@@ -3,24 +3,7 @@
 {% block title %}
 <title>پرداخت. hai craft شاپ</title>
 {% endblock %}
-{%block style%}
-<style>
-    footer {
-        background-image: linear-gradient(blue, red);
-        color: white;
-    }
-
-    header {
-        width: 100%;
-        background-image: linear-gradient(lime, cyan);
-        color: red;
-    }
-</style>
-{%endblock%}
 {% block content %} 
-<header>
-    <h1 style="text-align: center;color: red;">مرجع خرید رنک سرور ماینکرافت</h1>
-</header>
 <h1>آماده پرداخت</h1>
 <p>شماره سفارش:{{order.id}}</p>
 
@@ -33,7 +16,4 @@
 <a href="{% url 'final' order.id %}">
     پرداخت
 </a>
-<footer>
-    <h1 style="text-align: center;color: white;">developed by sepanta asadi</h1>
-</footer>
 {% endblock %}

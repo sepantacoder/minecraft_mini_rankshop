@@ -1,22 +1,40 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
     {% block title %}
-        <title>Rank Shop</title>
+    <title>Rank Shop</title>
     {% endblock %}
+    <style>
+        footer {
+            background-image: linear-gradient(blue, red);
+            color: white;
+        }
 
+        header {
+            width: 100%;
+            background-image: linear-gradient(lime, cyan);
+            color: red;
+        }
+    </style>
     {% block style %}
     {% endblock %}
 </head>
 
 <body>
+    <header>
+        <h1 style="text-align: center;color: red;">مرجع خرید رنک سرور hai craft</h1>
+    </header>
 
     {% block content %}
     {% endblock %}
-
+    <footer>
+        <h1 style="text-align: center;color: white;">developed by sepanta asadi</h1>
+    </footer>
 </body>
+
 </html>
