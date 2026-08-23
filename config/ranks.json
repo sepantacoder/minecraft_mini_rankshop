@@ -1,0 +1,68 @@
+[
+{
+    "model": "store.rank",
+    "pk": 1,
+    "fields": {
+        "name": "rank VIP",
+        "description": "قابلیت:پرواز - سایز -۲ جعبه شانسی",
+        "price": 20000,
+        "image": "ranks/vip.jpg",
+        "published": true
+    }
+},
+{
+    "model": "store.rank",
+    "pk": 2,
+    "fields": {
+        "name": "rank PRIME",
+        "description": "قابلیت: پرواز - تی پی بی اجازه - سایز",
+        "price": 25000,
+        "image": "ranks/prime.jpg",
+        "published": true
+    }
+},
+{
+    "model": "store.rank",
+    "pk": 3,
+    "fields": {
+        "name": "rank MEGA",
+        "description": "قابلیت:پرواز - سایز ست - دایمندی - ۱ توتم ۲ جعبه شانسی",
+        "price": 45000,
+        "image": "ranks/mega.jpg",
+        "published": true
+    }
+},
+{
+    "model": "store.rank",
+    "pk": 4,
+    "fields": {
+        "name": "rank LEGENDARY",
+        "description": "قابلیت: تیپی بی اجازه _ سایز - ست ندری ۲ - توتم ۳ جعبه شانسی",
+        "price": 60000,
+        "image": "ranks/legendary.jpg",
+        "published": true
+    }
+},
+{
+    "model": "store.rank",
+    "pk": 5,
+    "fields": {
+        "name": "rank SPONSOR",
+        "description": "قابلیت : پرواز _ سایز _ تیپی بی اجازه _ ۴ توتم - ۴ جعبه شانسی - ست ندری - سپر سایبورگ",
+        "price": 100000,
+        "image": "ranks/sponsor.jpg",
+        "published": true
+    }
+},
+{
+    "model": "store.rank",
+    "pk": 6,
+    "fields": {
+        "name": "rank CREATIVE",
+        "description": "قابلیت : پرواز تیپی - بی اجازه - سایز - ست ندری -ست سایبورگ - ۵ توتم - آیفون ۱۷ در بازی - ماشین g class - تمام آیتم های کریتیو بجوز آیتم های اضاف شده و هد ها - ۴ تا جعبه شانسی",
+        "price": 250000,
+        "image": "ranks/creative.jpg",
+        "published": true
+    }
+}
+]
