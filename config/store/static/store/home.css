@@ -53,9 +53,6 @@ button:hover{
 button>p{
     font-size: 22.5px;
 }
-footer{
-    display: none !important;
-}
 @media screen and (min-width:1300px) {
     .kid{
         width: 20%;
@@ -102,5 +99,5 @@ footer{
     }
 }
 body {
-    background-color: blue !important;
+    background-color:white;
 }
