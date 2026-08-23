@@ -101,3 +101,6 @@ footer{
         height: 100%;
     }
 }
+body{
+    background-color: white !important;
+}
