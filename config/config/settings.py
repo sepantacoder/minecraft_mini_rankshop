@@ -24,8 +24,11 @@ SECRET_KEY = 'django-insecure-d*(9$!o4)f_w6b__lxf$rnmgei&m-enlyefap)xv1z&=w8(f3z
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "minecraft-mini-rankshop-5.onrender.com",
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
