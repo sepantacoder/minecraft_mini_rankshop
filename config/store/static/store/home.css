@@ -101,6 +101,6 @@ footer{
         height: 100%;
     }
 }
-body{
-    background-color: white
+body {
+    background-color: blue !important;
 }
