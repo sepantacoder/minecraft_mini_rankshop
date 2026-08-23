@@ -8,11 +8,6 @@ img{
     height:60%;
     border-radius: 10px;
 }
-header{
-    width:100%;
-    background-image: linear-gradient(lime,cyan);
-    color: red;
-}
 .container{
     background-color: brown;
     width:100%;
@@ -54,10 +49,6 @@ button:hover{
     color: red;
     text-align: center;
     font-size: 22.5px;
-}
-footer{
-    background-image: linear-gradient(blue,red);
-    color: white;
 }
 button>p{
     font-size: 22.5px;
@@ -112,6 +103,4 @@ button>p{
     .kid{
         height: 100%;
     }
-}body {
-    background-color: red !important;
 }
