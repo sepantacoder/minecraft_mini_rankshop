@@ -1,0 +1,74 @@
+img{
+    width:300px;
+    height: 300px;
+}
+h2{
+    color:coral;
+}
+h1{
+    color: gold;
+}
+p{
+    color:blue;
+}
+label{
+    color: brown;
+}
+.parent{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.div1{
+    width:76.5%;
+    height: 100%;
+}
+.div2{
+    width:23.5%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    
+}
+input{
+    width:97%;
+    height: 10px;
+    margin-top:3px;
+    border:2px solid lime;
+    border-radius:5px;
+    outline:none;
+    transition:0.5s;
+}
+input:focus{
+    border:2px solid cyan
+}
+button{
+    width:50%;
+    height:30px;
+    background-color: orange;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+button:hover{
+    background-color: lime;
+    color: white;
+    transition: 0.8s;
+}
+footer{
+    background-image: linear-gradient(blue,red);
+    color: white;
+}
+header{
+    width:100%;
+    background-image: linear-gradient(lime,cyan);
+    color: red;
+}
+@media screen and (max-width:600px){
+    button{
+        width: 100%;
+    }
+}
